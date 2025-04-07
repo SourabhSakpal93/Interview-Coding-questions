@@ -1,0 +1,11 @@
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Java Program for replace spaces");
+        
+        String str = " dfs df sdfs f dfsd ffs ";
+        String updateStr = str.replaceAll("\\s","");
+        System.out.println(updateStr);
+        
+    }
+}
