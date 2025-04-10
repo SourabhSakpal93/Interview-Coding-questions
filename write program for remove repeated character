@@ -1,0 +1,13 @@
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("write program for remove repeated character");
+        
+        String str = "Hello From java java";
+        
+       StringBuilder str2 = new StringBuilder();
+       str.chars().distinct().forEach(c-> str2.append((char)c));
+       System.out.println(str2);
+        
+    }
+}
